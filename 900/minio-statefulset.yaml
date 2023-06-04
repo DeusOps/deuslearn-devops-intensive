@@ -45,7 +45,7 @@ spec:
   # and mounted at the paths mentioned above. 
   volumeClaimTemplates:
   - metadata:
-      name: nfs-pvc
+      name: data
     spec:
       accessModes:
         - ReadWriteOnce
